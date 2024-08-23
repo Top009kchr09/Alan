@@ -4521,8 +4521,8 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.TiledBg.Acts.SetWidth,
 		C3.Plugins.TiledBg.Exps.Width,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Plugins.TiledBg.Cnds.CompareInstanceVar,
 		C3.Plugins.System.Acts.GoToLayout,
+		C3.Plugins.TiledBg.Cnds.CompareInstanceVar,
 		C3.Plugins.System.Cnds.CompareVar
 	];
 };
@@ -4548,9 +4548,7 @@ self.C3_JsPropNameTable = [
 	{ШкалаЖизни: 0},
 	{ТайловыйФон5: 0},
 	{ТайловыйФон6: 0},
-	{Спрайт2: 0},
-	{Спрайт3: 0},
-	{Спрайт4: 0},
+	{ТайловыйФон7: 0},
 	{СчетчикКристаллов: 0}
 ];
 
@@ -4568,9 +4566,7 @@ self.InstanceType = {
 	Игрок3: class extends self.ISpriteInstance {},
 	ТайловыйФон5: class extends self.ITiledBackgroundInstance {},
 	ТайловыйФон6: class extends self.ITiledBackgroundInstance {},
-	Спрайт2: class extends self.ISpriteInstance {},
-	Спрайт3: class extends self.ISpriteInstance {},
-	Спрайт4: class extends self.ISpriteInstance {}
+	ТайловыйФон7: class extends self.ITiledBackgroundInstance {}
 }
 }
 
